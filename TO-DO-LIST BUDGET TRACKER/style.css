@@ -1,0 +1,41 @@
+.container {
+    width: 400px;
+    background: white;
+    margin: 80px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.input-area {
+    display: flex;
+    gap: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 8px;
+}
+
+button {
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+li {
+    background: #eee;
+    padding: 10px;
+    margin-top: 8px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 6px;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
